@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<link rel="stylesheet" href="styles.css">
+<title> 
+Kartik Blog
+</title>
+</head>
+<body>
+<h1> Kartik Aiyar <%= image_tag 'mypic.jpg', :style => "float:right;width:80px;height:100px;"%> </h1>
+<h3> Software Quality Assurance Engineer </h3>
+<hr style="height:3px;border:none;color:#333;background-color:orange;">
+<%= link_to 'Home', root_path %> |
+<%= link_to 'About', about_path %> |
+<%= link_to 'Contact', contact_path %>
+<input type="text" placeholder="Search..">
+<button type="submit">Submit</button>
+<hr style="height:1px;border:none;color:#333;background-color:black;">
+<pre title="Quality"> 
+	In manufacturing, a measure of excellence or a state of being free from defects, deficiencies and significant variations. 
+It is brought about by strict and consistent commitment to certain standards that achieve uniformity of a product in order to
+satisfy specific customer or user requirements. ISO 8402-1986 standard defines quality as "the totality of features and 
+characteristics of a product or service that bears its ability to satisfy stated or implied needs." 
+If an automobile company finds a defect in one of their cars and makes a product recall, customer reliability and therefore 
+production will decrease because trust will be lost in the car's quality.
+</pre>
+
+<p title="Software Testing"> <b>Software testing</b> is a set of processes aimed at investigating, evaluating and ascertaining the completeness and quality of computer software. Software testing ensures the compliance of a software product in relation with regulatory, business, technical, functional and user requirements. </p>
+<hr>
+<ul> 
+<b>Connect with me: </b>
+<div class="contactme">
+<li> Facebook </li>
+<li> Twitter </li>
+<li> Google </li>
+</div>
+</ul>
+</body>
+</html>
